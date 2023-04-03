@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Phone</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="iphone">
+            <div id="Screen">
+                <div id="Nav">
+                    <span id="Time" class="Time"></span>
+                    <div id="notify">
+                        <div class="left-pie"></div>
+                        <div class="right-pie"></div>
+                        <div class="speaker"></div>
+                        <div class="camera">
+                            <div class="shine"></div>
+                        </div>
+                    </div>
+                    <img src="./assets/signal.icon.png" id="sgnl">
+                    <img src="./assets/wifi.icon.png" id="wifi">
+                    <img src="./assets/battery.icon.png" id="btry">
+                </div>
+
+                <div id="homescreen">
+                    <!------------------ TOP ------------------->
+                    <div id="Top">
+                        <div class="app-row">
+                            <div id="Clockk" class="apps"></div>
+                            <div id="Camera" class="apps"></div>
+                            <div id="Notes" class="apps"></div>
+                            <div id="Photos" class="apps"></div>
+                        </div>
+                        <div class="app-row">
+                            <div id="Mail" class="apps"></div>
+                            <div id="Files" class="apps"></div>
+                            <div id="weather" class="apps"></div>
+                            <div id="Music" class="apps"></div>
+                        </div>
+                        <div class="app-row">
+                            <div id="Calendar" class="apps"><span id="day"></span><span id="daynm"></span></div>
+                        </div>
+                    </div>
+                    <!------------------ ------ ------------------->
+
+
+                    <!------------------ BOTTOM ------------------->
+                    <div id="bottom">
+                        <div id="call" class="bApps"></div>
+                        <div id="settings" class="bApps"></div>
+                        <div id="safari" class="bApps"></div>
+                        <div id="messages" class="bApps"></div>
+                    </div>
+                    <!------------------ -------- ------------------->
+
+                </div>
+
+
+                <!------------------ WEATHER APP ------------------->
+                <div id="weatherr" style="display: none;">
+                    <div id='top'>
+                        <h1 id="city">Berlin</h1>
+                        <span id="temp">19°</span>
+                        <p id="condition">Mostly Sunny</p>
+                    </div>
+                    <div id='mid'>
+                        <p id="gust">Wind speed is to 4.2 .</p>
+                        <hr>
+                    </div>
+                    <form id='form'>
+                        <img id="srch" src="./assets/search.png"> <input type="text" name="name" id="search"
+                            placeholder="Search City">
+                        <input type="submit" value="submit" style="cursor: pointer;">
+                    </form>
+                </div>
+                <!------------------ ----------- ------------------->
+
+            </div>
+
+
+
+        </div>
+        <div id="line"></div>
+        <div id="volume-button"></div>
+        <div id="volume-button-up"></div>
+        <div id="volume-button-down"></div>
+        <div id="power-button"></div>
+    </div>
+    <script src="iphone.js"></script>
+</body>
+
+</html>
